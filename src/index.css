@@ -40,9 +40,14 @@ button {
   color: rgba(255, 255, 255, 0.87);
   transition: border-color 0.25s;
 }
-button:hover {
+/*button:hover {*/
+/*  border-color: #646cff;*/
+/*}*/
+
+button:not(:disabled):hover {
   border-color: #646cff;
 }
+
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
