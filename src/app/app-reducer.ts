@@ -24,3 +24,4 @@ export const changeAppStatusAC = (status: RequestStatusType) => {
     payload: status
   } as const
 }
+
